@@ -1,0 +1,37 @@
+2021-03-07.18:23:11:	[class StringProducer *] Produced 2 strings.
+2021-03-07.18:23:11:	[class StringQueue *] Added String R0_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R0_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Added String R0_S2 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringConsumer *] PROCESS String R0_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringProducer *] Producer loop. MaxRuns: 3, Current Run: 1
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R0_S2 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringConsumer *] PROCESS String R0_S2 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringProducer *] Produced 3 strings.
+2021-03-07.18:23:11:	[class StringQueue *] Added String R1_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R1_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:112021-03-07.18:23:11:	:	[class StringConsumer *] PROCESS String R1_S1 : TEXT_EXAMPLE[class StringQueue *] Added String R1_S2 : TEXT_EXAMPLE
+
+2021-03-07.18:23:11:	[class StringQueue *] Added String R1_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R1_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringProducer *] Producer loop. MaxRuns: 3, Current Run: 2
+2021-03-07.18:23:11:	[class StringConsumer *] PROCESS String R1_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringProducer *] Produced 5 strings.
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R1_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:112021-03-07.18:23:11:	:	[class StringConsumer *] PROCESS String R1_S3 : TEXT_EXAMPLE[class StringQueue *] Added String R2_S1 : TEXT_EXAMPLE
+
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R2_S1 : TEXT_EXAMPLE
+2021-03-07.18:23:112021-03-07.18:23:11:	:	[class StringConsumer *] PROCESS String R2_S1 : TEXT_EXAMPLE[class StringQueue *] Added String R2_S2 : TEXT_EXAMPLE
+
+2021-03-07.18:23:11:	[class StringQueue *] Added String R2_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R2_S3 : TEXT_EXAMPLE
+2021-03-07.18:23:112021-03-07.18:23:11:	:	[class StringConsumer *] PROCESS String R2_S3 : TEXT_EXAMPLE[class StringQueue *] Added String R2_S4 : TEXT_EXAMPLE
+
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R2_S4 : TEXT_EXAMPLE
+2021-03-07.18:23:112021-03-07.18:23:11:	:	[class StringQueue *] Added String R2_S5 : TEXT_EXAMPLE[class StringConsumer *] PROCESS String R2_S4 : TEXT_EXAMPLE
+
+2021-03-07.18:23:11:	[class StringProducer *] Producer loop. MaxRuns: 3, Current Run: 3
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R2_S5 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringProducer *] Producer Exited.
+2021-03-07.18:23:11:	[class StringConsumer *] PROCESS String R2_S5 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringQueue *] Removed String R2_S5 : TEXT_EXAMPLE
+2021-03-07.18:23:11:	[class StringConsumer *] PROCESS String R2_S5 : TEXT_EXAMPLE
